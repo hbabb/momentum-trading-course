@@ -21,39 +21,39 @@ This is primarily a research/development trading system rather than a production
 .
 ├── .gitignore
 ├── README.md
-└── project1/
-    ├── .env.example
-    ├── manage.py
-    ├── requirements.txt
-    ├── momentum_trader/
-    │   ├── __init__.py
-    │   ├── settings.py
-    │   ├── urls.py
-    │   ├── asgi.py
-    │   └── wsgi.py
-    ├── portfolio/
-    │   ├── __init__.py
-    │   ├── admin.py
-    │   ├── apps.py
-    │   ├── models.py
-    │   ├── tests.py
-    │   └── views.py
-    ├── trading/
-    │   ├── __init__.py
-    │   ├── admin.py
-    │   ├── apps.py
-    │   ├── models.py
-    │   ├── tests.py
-    │   ├── views.py
-    │   ├── management/
-    │   │   └── commands/
-    │   │       └── pull_massive_data.py
-    │   └── services/
-    │       ├── massive_client.py
-    │       ├── momentum_calculator.py
-    │       ├── snaptrade_client.py
-    │       └── strategy_engine.py
-    └── db.sqlite3   # created after initial DB setup
+|
+├── .env.example
+├── manage.py
+├── requirements.txt
+├── momentum_trader/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   ├── asgi.py
+│   └── wsgi.py
+├── portfolio/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   └── views.py
+├── trading/
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── views.py
+│   ├── management/
+│   │   └── commands/
+│   │       └── pull_massive_data.py
+│   └── services/
+│       ├── massive_client.py
+│       ├── momentum_calculator.py
+│       ├── snaptrade_client.py
+│       └── strategy_engine.py
+└── db.sqlite3   # created after initial DB setup
 ```
 
 ## Core components
@@ -196,12 +196,3 @@ No explicit license file is included in the repository at the moment. If you pla
 ## Summary
 
 This repository demonstrates a practical quant trading architecture using Django, external market data, and brokerage APIs. It is structured around momentum-based stock selection and portfolio management, making it suitable as a starter project or research platform for algorithmic trading experiments.
-
-```
-
-If you want, I can also tailor this README to be:
-- shorter and more polished for GitHub
-- more technical and architecture-focused
-- aimed at a demo/project portfolio style
-
-```
