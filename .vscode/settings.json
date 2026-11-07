@@ -1,0 +1,9 @@
+{
+    "python.terminal.useEnvFile": true,
+    "cSpell.words": [
+        "asgi",
+        "runserver",
+        "snaptrade",
+        "wsgi"
+    ]
+}
