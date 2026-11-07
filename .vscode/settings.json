@@ -2,8 +2,10 @@
     "python.terminal.useEnvFile": true,
     "cSpell.words": [
         "asgi",
+        "makemigrations",
         "runserver",
         "snaptrade",
         "wsgi"
-    ]
+    ],
+    "python-envs.defaultPackageManager": "ms-python.python:pip"
 }
